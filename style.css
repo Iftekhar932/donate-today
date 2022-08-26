@@ -1,0 +1,271 @@
+* {
+  font-family: verdana;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+/* CSS FOR HEADER SECTION*/
+header {
+  background: url("./images/donation13.jpg") no-repeat center center/cover;
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+header,
+section,
+main {
+  margin-bottom: 5rem;
+}
+
+.header-article {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.header-article * {
+  padding: 1rem;
+}
+header article.text-container {
+  width: 50%;
+  margin: auto;
+  text-align: center;
+  color: #fff;
+}
+
+.text-container h1 {
+  font-size: 3rem;
+}
+
+.text-container p {
+  font-size: 1.5rem;
+  width: 90%;
+  margin: auto;
+}
+
+button.btn {
+  padding: 1rem 2rem;
+  background-image: linear-gradient(161deg, #009688 20%, #123 30%);
+  color: white;
+  align-self: center;
+  font-weight: bolder;
+  font-size: 1rem;
+  border-radius: 5px;
+}
+
+/* CSS FOR DONATE SECTION START*/
+
+section#donate {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+}
+
+section#donate article.text-container {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+section#donate article.text-container * {
+  padding: 1rem;
+}
+
+div.select-amount {
+  display: flex;
+  justify-content: space-between;
+  padding: 3rem 0;
+}
+div.select-amount span {
+  margin: 0 1rem 0 1rem;
+  height: 250px;
+  width: 250px;
+  background-color: #f8f8f8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+div.select-amount span:nth-child(2) {
+  background-color: #ffd0c8;
+  border: 2px solid red;
+}
+div.other-amount {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 50%;
+}
+div.other-amount * {
+  padding: 1rem;
+}
+div.amount-box {
+  text-align: center;
+  opacity: 0.4;
+}
+div.divider {
+  width: 100%;
+  display: inline-block;
+  border-top: 0.1px solid;
+  height: 1px;
+  margin-top: 1rem;
+  padding-bottom: 0;
+  opacity: 0.5;
+}
+/* CSS FOR DONATE SECTION END*/
+
+/* DONATE PLAN SECTION CSS START  */
+
+section#donate-plan {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
+  width: 768px;
+  margin: auto;
+}
+section#donate-plan article.text-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 1rem;
+}
+article.articles {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+article.articles article {
+  height: 450px;
+  width: 450px;
+  padding: 3rem 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: start;
+  border-radius: 5px;
+}
+article.articles article h1 {
+  margin-top: -6rem;
+  align-self: start;
+  font-size: 1.5rem;
+}
+article.articles article p {
+  margin-top: -6rem;
+  font-size: 1.2rem;
+}
+
+article.articles article img {
+  width: 70px;
+  justify-self: start;
+  align-self: start;
+}
+
+article.articles article:first-child {
+  background-color: #edf5f6;
+}
+article.articles article:nth-child(2) {
+  background-color: #ffeeee;
+}
+article.articles article:last-child {
+  background-color: #fff4d6;
+}
+/* DONATE PLAN SECTION CSS END  */
+
+/* CONTRIBUTE SECTION CSS START  */
+section#contribute {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+section#contribute > article.text-container {
+  width: 1480px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 4rem;
+  text-align: start;
+  gap: 1rem;
+}
+section#contribute article.text-container h1 {
+  font-size: 3.2rem;
+}
+section#contribute article.text-container img {
+  padding: 0 1rem 0 1rem;
+}
+section#contribute article.text-container p {
+  opacity: 0.5;
+  margin: 0;
+  padding: 3rem 0;
+}
+
+/* CONTRIBUTE SECTION CSS END  */
+
+/* UPDATE SECTION CSS START  */
+section#updates {
+  width: 1480px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 4rem;
+  text-align: center;
+  gap: 2rem;
+  margin: auto;
+}
+section#updates article.text-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+section#updates div {
+  width: 768px;
+  height: 200px;
+  background-color: #123;
+  display: inline-block;
+}
+section#updates div button {
+  padding: 1.5rem;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border: 0;
+  margin-top: 4rem;
+  font-weight: bolder;
+}
+section#updates div input {
+  border: 0;
+  margin-top: 4rem;
+  display: inline-block;
+  padding: 1.5rem;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+::placeholder {
+  color: #123;
+  font-weight: bolder;
+}
+/* UPDATE SECTION CSS END  */
+
+/* FOOTER  CSS START  */
+footer#footer {
+  display: flex;
+  justify-content: space-around;
+  background-color: #123;
+  position: relative;
+  color: #009688;
+  top: 10rem;
+  padding: 8rem;
+  text-align: center;
+  font-size: 1.5rem;
+}
+/* FOOTER CSS END  */
